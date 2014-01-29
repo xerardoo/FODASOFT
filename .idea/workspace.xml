@@ -183,7 +183,11 @@
       <created>1390970709804</created>
       <updated>1390970709804</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add librerias">
+      <created>1390970717599</created>
+      <updated>1390970717599</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
