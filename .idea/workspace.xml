@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fc93f04-aa5c-4911-9145-04d1d567c660" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Index.html" afterPath="$PROJECT_DIR$/Index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FODASOFT.iws" />
@@ -30,7 +28,7 @@
       <file leaf-file-name="Index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.4383057" vertical-offset="0" max-vertical-offset="543">
+            <state line="8" column="7" selection-start="101" selection-end="101" vertical-scroll-proportion="0.25046042" vertical-offset="0" max-vertical-offset="543">
               <folding />
             </state>
           </provider>
@@ -173,12 +171,22 @@
       <created>1390962977998</created>
       <updated>1390962977998</updated>
     </task>
+    <task id="LOCAL-00001" summary="new folders">
+      <created>1390965041223</created>
+      <updated>1390965041223</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add librerias">
+      <created>1390965496524</created>
+      <updated>1390965496524</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="0" width="1346" height="728" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -205,6 +213,9 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="new folders" />
+    <MESSAGE value="add librerias" />
+    <option name="LAST_COMMIT_MESSAGE" value="add librerias" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -219,7 +230,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.4383057" vertical-offset="0" max-vertical-offset="543">
+        <state line="8" column="7" selection-start="101" selection-end="101" vertical-scroll-proportion="0.25046042" vertical-offset="0" max-vertical-offset="543">
           <folding />
         </state>
       </provider>
