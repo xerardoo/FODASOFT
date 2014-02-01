@@ -3,12 +3,35 @@
 <head>
     <title>FODASOFT - Planeacion Inteligente</title>
 
-
+    <script src="lib/angular.js"></script>
+    <script src="lib/bootstrap.js"></script>
+    <script src="js/Control.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 
-<!---->
 
 <body>
+
+<!--nav-bar-->
+<div class="navbar navbar-default navbar-static-top">
+    <ul class="nav navbar-nav">
+        <li ng-class="{'active' : activeTab=='Index'}"><a href="#Index">Inicio</a></li>
+        <li ng-class="{'active' : activeTab=='Nombre_deFODA'"><a href="#Analisis_FODA"> FODA</a></li>
+        <li><a href="#">Link</a></li>
+        </ul>
+
+</div>
+<!--nav-bar-->
+
+<!--View-->
+<div class="container">
+    <div class="row" ng-view>
+
+
+
+    </div>
+</div>
+<!---->
 
 </body>
 
