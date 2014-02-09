@@ -1,0 +1,60 @@
+#customBtn {
+    display: inline-block;
+    background: #dd4b39;
+    color: white;
+    width: 165px;
+    border-radius: 0px;
+    /*white-space: nowrap;*/
+}
+#customBtn:hover {
+    background: #e74b37;
+    cursor: hand;
+}
+ul.nav.navbar-nav.navbar-right{
+    height: 57px;
+}
+
+#imgFoda img{
+    height: 470px;
+    width: 850px;
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+}
+
+#fortalezas{
+    background-color: #4b97ab;
+    text-align: center;
+}
+
+#oportunidades{
+    background-color: #7fd1a7;
+    text-align: center;
+}
+
+#debilidades{
+    background-color: #ffc754;
+    text-align: center;
+}
+
+#amenazas{
+    background-color: #ff4444;
+    text-align: center;
+
+}
+
+input.form-control-pristine.ng-valid{
+    width: 90%;
+    text-align: center;
+
+}
+
+div.form-group.ng-scope button{
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+h3{
+  font-weight: bold;
+}
