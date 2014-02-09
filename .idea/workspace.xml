@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fc93f04-aa5c-4911-9145-04d1d567c660" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/FODA_FAT.2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/FODA.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/NavbarCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FODASOFT.iws" />
@@ -33,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="5" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.43283582" vertical-offset="414" max-vertical-offset="1394">
+            <state line="49" column="5" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.67638487" vertical-offset="414" max-vertical-offset="1394">
               <folding>
                 <element signature="tag#script#0;tag#html#0" expanded="false" />
                 <element signature="tag#span#0;tag#a#0;tag#li#0;tag#ul#1;tag#div#1;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
@@ -265,7 +260,11 @@
       <created>1391909019925</created>
       <updated>1391909019925</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="estilo personalizado para las cajas de FODA&#10;y dinamismo de formulario fodak">
+      <created>1391909328626</created>
+      <updated>1391909328626</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -293,11 +292,11 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.67058825" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20104244" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20104244" sideWeight="0.6717687" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -440,7 +439,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="5" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.43283582" vertical-offset="414" max-vertical-offset="1394">
+        <state line="49" column="5" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.67638487" vertical-offset="414" max-vertical-offset="1394">
           <folding>
             <element signature="tag#script#0;tag#html#0" expanded="false" />
             <element signature="tag#span#0;tag#a#0;tag#li#0;tag#ul#1;tag#div#1;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
