@@ -51,8 +51,10 @@ input.form-control-pristine.ng-valid{
 
 div.form-group.ng-scope button{
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
+    margin-top: 15px;
+
 }
 
 h3{

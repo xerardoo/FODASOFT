@@ -47,4 +47,11 @@ navApp.controller('AyudaController',function($scope){
 
 
 
+navApp.controller('authCtrl',['$scope',function authCtrl($scope) {
+    $scope.auth ="<div>auth</div>";
+}]);
+
+
+
+
 

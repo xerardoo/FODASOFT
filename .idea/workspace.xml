@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fc93f04-aa5c-4911-9145-04d1d567c660" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/auth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/FODA.html" afterPath="$PROJECT_DIR$/views/FODA.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/NavbarCtrl.js" afterPath="$PROJECT_DIR$/js/NavbarCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/inicio.html" afterPath="$PROJECT_DIR$/views/inicio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FODASOFT.iws" />
@@ -28,20 +33,31 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="5" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.67638487" vertical-offset="414" max-vertical-offset="1394">
+            <state line="56" column="40" selection-start="2122" selection-end="2122" vertical-scroll-proportion="2.44375" vertical-offset="374" max-vertical-offset="1564">
               <folding>
                 <element signature="tag#script#0;tag#html#0" expanded="false" />
-                <element signature="tag#span#0;tag#a#0;tag#li#0;tag#ul#1;tag#div#1;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+      <file leaf-file-name="empresa.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/empresa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="23" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="366" max-vertical-offset="1105">
+            <state line="7" column="14" selection-start="375" selection-end="375" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="255">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FODA.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/FODA.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="125" selection-start="2001" selection-end="2001" vertical-scroll-proportion="-13.038462" vertical-offset="52" max-vertical-offset="1071">
+              <folding>
+                <element signature="tag#div#0;tag#div#0;tag#div#0" expanded="false" />
+                <element signature="tag#div#1;tag#div#0;tag#div#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,14 +65,8 @@
       <file leaf-file-name="FODACtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/FODACtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="34" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <folding>
-                <element signature="n#!!doc;n#FortalezasCtrl#0" expanded="false" />
-                <element signature="n#!!block;n#FortalezasCtrl#0" expanded="false" />
-                <element signature="n#!!block;n#OportunidadesCtrl#0" expanded="false" />
-                <element signature="n#!!block;n#DebilidadesCtrl#0" expanded="false" />
-                <element signature="n#!!block;n#AmenazasCtrl#0" expanded="false" />
-              </folding>
+            <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,7 +74,16 @@
       <file leaf-file-name="NavbarCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/NavbarCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="952">
+            <state line="49" column="0" selection-start="1222" selection-end="1330" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="1071">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inicio.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/inicio.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="19" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -93,14 +112,15 @@
         <option value="$PROJECT_DIR$/css/index_style.css" />
         <option value="$PROJECT_DIR$/css/navbarStyle.scss" />
         <option value="$PROJECT_DIR$/css/navbarStyle.css" />
-        <option value="$PROJECT_DIR$/views/inicio.html" />
         <option value="$PROJECT_DIR$/views/empresa.html" />
         <option value="$PROJECT_DIR$/js/Control.js" />
         <option value="$PROJECT_DIR$/views/ayuda.html" />
-        <option value="$PROJECT_DIR$/js/NavbarCtrl.js" />
         <option value="$PROJECT_DIR$/js/FODACtrl.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/views/inicio.html" />
         <option value="$PROJECT_DIR$/views/FODA.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/auth.js" />
+        <option value="$PROJECT_DIR$/js/NavbarCtrl.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -165,7 +185,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -176,19 +196,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../04Formularios" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -197,6 +209,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -264,7 +284,11 @@
       <created>1391909328626</created>
       <updated>1391909328626</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="estilo personalizado para las cajas de FODA&#10;y dinamismo de formulario fodakkk">
+      <created>1391909451732</created>
+      <updated>1391909451732</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -291,21 +315,21 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.67058825" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20104244" sideWeight="0.6717687" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13328369" sideWeight="0.3605442" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.64115644" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6394558" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -326,9 +350,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.67058825" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20104244" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -343,7 +367,8 @@
     <MESSAGE value="++librerias" />
     <MESSAGE value="estilo personalizado para las cajas de FODA&#10;y dinamismo de formulario foda" />
     <MESSAGE value="estilo personalizado para las cajas de FODA&#10;y dinamismo de formulario fodak" />
-    <option name="LAST_COMMIT_MESSAGE" value="estilo personalizado para las cajas de FODA&#10;y dinamismo de formulario fodak" />
+    <MESSAGE value="estilo personalizado para las cajas de FODA&#10;y dinamismo de formulario fodakkk" />
+    <option name="LAST_COMMIT_MESSAGE" value="estilo personalizado para las cajas de FODA&#10;y dinamismo de formulario fodakkk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -374,55 +399,40 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="349605" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/inicio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="124" selection-end="124" vertical-scroll-proportion="0.19029851" vertical-offset="0" max-vertical-offset="536" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/empresa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="97" selection-start="21" selection-end="118" vertical-scroll-proportion="0.031716418" vertical-offset="0" max-vertical-offset="536">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/ayuda.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="884">
-          <folding />
-        </state>
+        <state line="5" column="36" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="884" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/navbarStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="32" selection-start="867" selection-end="867" vertical-scroll-proportion="0.8360656" vertical-offset="0" max-vertical-offset="1088">
+        <state line="27" column="32" selection-start="867" selection-end="867" vertical-scroll-proportion="0.8360656" vertical-offset="0" max-vertical-offset="1088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../04Formularios/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2244">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/NavbarCtrl.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="952">
+        <state line="53" column="17" selection-start="828" selection-end="828" vertical-scroll-proportion="0.57651246" vertical-offset="577" max-vertical-offset="1139">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/FODACtrl.js">
+    <entry file="file://$PROJECT_DIR$/views/empresa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding>
-            <element signature="n#!!doc;n#FortalezasCtrl#0" expanded="false" />
-            <element signature="n#!!block;n#FortalezasCtrl#0" expanded="false" />
-            <element signature="n#!!block;n#OportunidadesCtrl#0" expanded="false" />
-            <element signature="n#!!block;n#DebilidadesCtrl#0" expanded="false" />
-            <element signature="n#!!block;n#AmenazasCtrl#0" expanded="false" />
-          </folding>
+        <state line="7" column="14" selection-start="375" selection-end="375" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="255">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/FODA.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="10" selection-start="2657" selection-end="2657" vertical-scroll-proportion="0.84227127" vertical-offset="396" max-vertical-offset="1071">
+        <state line="42" column="125" selection-start="2001" selection-end="2001" vertical-scroll-proportion="-13.038462" vertical-offset="52" max-vertical-offset="1071">
           <folding>
             <element signature="tag#div#0;tag#div#0;tag#div#0" expanded="false" />
             <element signature="tag#div#1;tag#div#0;tag#div#0" expanded="false" />
@@ -430,19 +440,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/FODACtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="366" max-vertical-offset="1105">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/inicio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.090747334" vertical-offset="0" max-vertical-offset="562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/NavbarCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1222" selection-end="1330" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="1071">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="5" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.67638487" vertical-offset="414" max-vertical-offset="1394">
+        <state line="56" column="40" selection-start="2122" selection-end="2122" vertical-scroll-proportion="2.44375" vertical-offset="374" max-vertical-offset="1564">
           <folding>
             <element signature="tag#script#0;tag#html#0" expanded="false" />
-            <element signature="tag#span#0;tag#a#0;tag#li#0;tag#ul#1;tag#div#1;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
