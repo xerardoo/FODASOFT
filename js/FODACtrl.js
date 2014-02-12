@@ -2,6 +2,29 @@
  * Created by xer on 2/6/14.
  */
 
+
+
+
+function  RegBtnCtrl($scope){
+        var show = false;
+        $scope.on = function(){
+            show = true;
+
+        }
+
+        $scope.off = function(){
+            show = false;
+
+        }
+
+        $scope.showButton = function(){
+            return show;
+        }
+
+    };
+
+
+
 function FortalezasCtrl($scope){
 $scope.fortalezas = [{id: 'fortaleza1'}, {id: 'fortaleza2'}, {id: 'fortaleza3'}];
 
@@ -14,9 +37,7 @@ $scope.showAddFortaleza = function(fortaleza) {
     return fortaleza.id === $scope.fortalezas[$scope.fortalezas.length-1].id;
 };
 
-
 }
-
 
 function OportunidadesCtrl($scope){
     $scope.oportunidades = [{id: 'oportunidad1'}, {id: 'oportunidad2'}, {id: 'oportunidad3'}];

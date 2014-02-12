@@ -57,3 +57,11 @@
         background-color: 4797FF;
     }
 }
+
+a.navbar-brand img{
+
+    max-width:40px;
+    margin-top: -15px;
+    margin-bottom: -20px;
+
+}

@@ -1,62 +1,135 @@
-
-
 <h1>{{message}}</h1>
 
-        <hr>
-        <button class="btn btn-primary">Nueva Empresa</button>
+<hr>
+<div class="container-fluid">
 
-        <hr>
-<div class="row">
-    <div class="col-lg-12">
-    <div id="fortalezas" class="col-lg-6"><!--row fortalezas-->
-        <div ng-controller="FortalezasCtrl">
-            <!--fortalezas-->
-                <h3>Fortalezas</h3>
-                <div class="form-group" data-ng-repeat="fortaleza in fortalezas">
-                    <input type="text" class="form-control" ng-model="fortaleza.name" name="" placeholder="Introduce Fortaleza">
-                    <button class="btn btn-success" ng-show="showAddFortaleza(fortaleza)" ng-click="addNewFortaleza()">   +   </button>
-                </div>
+    <div class="row">
 
-            <!--fortalezas-->
-        </div><!--ctrl fortalezas-->
-    </div><!--row fortalezas-->
+        <div class="col-lg-4">
+            <div class="input-group">
+                <input type="text" ng-model="empresa" class="form-control">
+      <span class="input-group-btn">
+        <button class="btn btn-primary" type="button"><span class="glyphicon glyphicon-search"></span></button>
+      </span>
+            </div>
+            <!-- /input-group -->
+        </div>
+        <!-- /.col-lg-4-->
 
-    <div id="oportunidades" class="col-lg-6"><!--row oportunidades-->
-        <div ng-controller="OportunidadesCtrl"><!--oportunidadesCTRL-->
-                <h3>Oportunidades</h3>
-                <div class="form-group" data-ng-repeat="oportunidad in oportunidades">
-                    <input type="text" class="form-control" ng-model="oportunidad.name" name="" placeholder="Introduce Oportunidad">
-                    <button class="btn btn-success" ng-show="showAddOportunidad(oportunidad)" ng-click="addNewOportunidad()"> + </button>
-                </div>
-        </div><!--oportunidadesCTRL-->
-    </div><!--row oportunidades-->
+        <div ng-controller="RegBtnCtrl">
+
+
+            <div class="col-lg-4">
+                <button class="btn btn-primary" ng-click="on()" ng-hide="showButton()">
+                    <span class="glyphicon glyphicon-ok"></span> Nueva Empresa
+                </button>
+                <button class="btn btn-primary" ng-click="off()" ng-show="showButton()">
+                    <span class="glyphicon glyphicon-floppy-disk"></span> Registrar Empresa
+                </button>
+                <br>
+        <span ng-show="showButton()">
+            Razon Social:
+            <input class="form-control" ng-model="empresa" type="text" id="razon"/>
+            Encargado:
+            <input class="form-control" type="text" id="encargado"/>
+            Direccion:
+            <input class="form-control" type="text" id="dir"/>
+        </span>
+                <span ng-hide="showButton()"></span>
+            </div>
+
+        </div>
+        <div class="col-lg-4">
+            <h4>Empresa: {{empresa}}</h4>
+        </div>
+
 
     </div>
 
-    <div class="col-lg-12">
-    <div id="debilidades" class="col-lg-6">
-        <div ng-controller="DebilidadesCtrl"><!--debiliidadesCTRL-->
-            <!--debilidades-->
-                <h3>Debilidades</h3>
-                <div class="form-group" data-ng-repeat="debilidad in debilidades">
-                    <input type="text" class="form-control" ng-model="debilidad.name" name="" placeholder="Introduce Debilidad">
-                    <button  class="btn btn-success" ng-show="showAddOportunidad(debilidad)" ng-click="addNewOportunidad()">+</button>
+
+    <hr>
+
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="fortalezas" class="col-lg-6"><!--row fortalezas-->
+                <div ng-controller="FortalezasCtrl">
+                    <!--fortalezas-->
+                    <h3>Fortalezas</h3>
+
+                    <div class="form-group" data-ng-repeat="fortaleza in fortalezas">
+                        <input type="text" class="form-control" ng-model="fortaleza.name" name=""
+                               placeholder="Introduce Fortaleza">
+                        <button class="btn btn-success" ng-show="showAddFortaleza(fortaleza)"
+                                ng-click="addNewFortaleza()">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                    </div>
+
+                    <!--fortalezas-->
                 </div>
-        </div><!--debiliidadesCTRL-->
+                <!--ctrl fortalezas-->
+            </div>
+            <!--row fortalezas-->
 
-    </div>
+            <div id="oportunidades" class="col-lg-6"><!--row oportunidades-->
+                <div ng-controller="OportunidadesCtrl"><!--oportunidadesCTRL-->
+                    <h3>Oportunidades</h3>
 
-    <div id="amenazas" class="col-lg-6">
-        <div ng-controller="AmenazasCtrl"><!--amenazasCTRL-->
-            <!--amenazas-->
-
-                <h3>Amenazas</h3>
-                <div class="form-group" data-ng-repeat="amenaza in amenazas">
-                    <input type="text" class="form-control" ng-model="amenaza.name" name="" placeholder="Introduce Amenaza">
-                    <button class="btn btn-success" ng-show="showAddOportunidad(amenaza)" ng-click="addNewOportunidad()"> + </button>
+                    <div class="form-group" data-ng-repeat="oportunidad in oportunidades">
+                        <input type="text" class="form-control" ng-model="oportunidad.name" name=""
+                               placeholder="Introduce Oportunidad">
+                        <button class="btn btn-success" ng-show="showAddOportunidad(oportunidad)"
+                                ng-click="addNewOportunidad()">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                    </div>
                 </div>
-        </div><!--amenazasCTRL-->
-    </div>
+                <!--oportunidadesCTRL-->
+            </div>
+            <!--row oportunidades-->
+
+        </div>
+
+        <div class="col-lg-12">
+            <div id="debilidades" class="col-lg-6">
+                <div ng-controller="DebilidadesCtrl"><!--debiliidadesCTRL-->
+                    <!--debilidades-->
+                    <h3>Debilidades</h3>
+
+                    <div class="form-group" data-ng-repeat="debilidad in debilidades">
+                        <input type="text" class="form-control" ng-model="debilidad.name" name=""
+                               placeholder="Introduce Debilidad">
+                        <button class="btn btn-success" ng-show="showAddOportunidad(debilidad)"
+                                ng-click="addNewOportunidad()">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                    </div>
+                </div>
+                <!--debiliidadesCTRL-->
+
+            </div>
+
+            <div id="amenazas" class="col-lg-6">
+                <div ng-controller="AmenazasCtrl"><!--amenazasCTRL-->
+                    <!--amenazas-->
+
+                    <h3>Amenazas</h3>
+
+                    <div class="form-group" data-ng-repeat="amenaza in amenazas">
+                        <input type="text" class="form-control" ng-model="amenaza.name" name=""
+                               placeholder="Introduce Amenaza">
+                        <button class="btn btn-success" ng-show="showAddOportunidad(amenaza)"
+                                ng-click="addNewOportunidad()">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                    </div>
+                </div>
+                <!--amenazasCTRL-->
+            </div>
+
+
+        </div>
 
 
     </div>
@@ -64,13 +137,7 @@
 
 </div>
 
-
-
-
-
-
-
 <hr>
 
 
-
+<h2>Estrategias</h2>
