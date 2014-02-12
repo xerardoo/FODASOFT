@@ -8,7 +8,7 @@ body{
     color: white;
     width: 165px;
     border-radius: 0px;
-    right: 50px;
+    right: 70px;
     /*white-space: nowrap;*/
 }
 #customBtn:hover {
@@ -21,19 +21,19 @@ ul.nav.navbar-nav.navbar-right{
 
 #imgFoda img{
     height: 500px;
-    width: 850px;
+    /*width: 800px;*/
     margin: auto;
     padding-top: 70px;
     text-align: center;
 }
 
 #fortalezas{
-    background-color: #4b97ab;
+    background-color: #BEDC78;
     text-align: center;
 }
 
 #oportunidades{
-    background-color: #7fd1a7;
+    background-color: #A6BDD3;
     text-align: center;
 }
 
@@ -62,6 +62,30 @@ div.form-group.ng-scope button{
 
 }
 
+h3 small{
+    color: #f5f5f5;
+   font-weight: bold;
+}
+
+h4{
+    font-weight: bold;
+}
+
+
+#vertical p{
+    display: block;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: fixed;
+    left: 0px;
+    font-size: 40px;
+    background-color: chartreuse;
+}
+
 #footer{
 
 }
@@ -73,8 +97,5 @@ h3{
 
 h1{
     padding-top: 60px;
-
-}
-.row{
 
 }

@@ -26,11 +26,11 @@ function  RegBtnCtrl($scope){
 
 
 function FortalezasCtrl($scope){
-$scope.fortalezas = [{id: 'fortaleza1'}, {id: 'fortaleza2'}, {id: 'fortaleza3'}];
+$scope.fortalezas = [{id: 1}, {id: 2}, {id: 3}];
 
 $scope.addNewFortaleza = function() { /*agrega otra fortaleza al arreglo*/
     var newItemNo = $scope.fortalezas.length+1;
-    $scope.fortalezas.push({'id':'fortaleza'+newItemNo});
+    $scope.fortalezas.push({'id':newItemNo});
 };
 
 $scope.showAddFortaleza = function(fortaleza) {
@@ -40,11 +40,11 @@ $scope.showAddFortaleza = function(fortaleza) {
 }
 
 function OportunidadesCtrl($scope){
-    $scope.oportunidades = [{id: 'oportunidad1'}, {id: 'oportunidad2'}, {id: 'oportunidad3'}];
+    $scope.oportunidades = [{id:1}, {id:2}, {id:3}];
 
     $scope.addNewOportunidad = function() {
         var newItemNo = $scope.oportunidades.length+1;
-        $scope.oportunidades.push({'id':'oportunidad'+newItemNo});
+        $scope.oportunidades.push({'id':newItemNo});
     };
 
     $scope.showAddOportunidad = function(oportunidad) {
@@ -54,11 +54,11 @@ function OportunidadesCtrl($scope){
 
 
 function DebilidadesCtrl($scope){
-    $scope.debilidades = [{id: 'debilidad1'}, {id: 'debilidad2'}, {id: 'debilidad3'}];
+    $scope.debilidades = [{id: 1}, {id: 2}, {id: 3}];
 
     $scope.addNewOportunidad = function() {
         var newItemNo = $scope.debilidades.length+1;
-        $scope.debilidades.push({'id':'debilidad'+newItemNo});
+        $scope.debilidades.push({'id':newItemNo});
     };
 
     $scope.showAddOportunidad = function(debilidad) {
@@ -67,11 +67,11 @@ function DebilidadesCtrl($scope){
 }
 
 function AmenazasCtrl($scope){
-    $scope.amenazas = [{id: 'amenaza1'}, {id: 'amenaza2'}, {id: 'amenaza3'}];
+    $scope.amenazas = [{id: 1}, {id: 2}, {id: 3}];
 
     $scope.addNewOportunidad = function() {
         var newItemNo = $scope.amenazas.length+1;
-        $scope.amenazas.push({'id':'amenaza'+newItemNo});
+        $scope.amenazas.push({'id':newItemNo});
     };
 
     $scope.showAddOportunidad = function(amenaza) {
